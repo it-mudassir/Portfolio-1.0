@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="home_page">  
+  <!--Background Conrner-->
+  <div id="design_container">
+    <div id="corner_design"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Mudassir Ahmed</div>
+    <div id="navbar">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="#contact_main"><div id="contact_btn">Get In Touch</div></a></li>
+            </ul>
+          </nav>
+
+          <div id="hamburger_menu">
+            <div class="menu-btn" id="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+              <div id="link_box">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact_main"><div id="contact_btn">Get in touch</div></a>
+              </div>
+              <div id="social_links_heading">
+                <div>
+                  <p>Social</p>
+                  <p>Links</p>
+                </div>
+              </div>
+              <div id="social_links">
+                <div id="links">
+                  <ul>
+                    <li><a href="#" class="copy-link" data-text="923232756102" data-url="https://wa.me/923232756102">whatsapp</a></li>
+                    <li><a href="#" class="copy-link" data-text="https://pk.linkedin.com/" data-url="https://pk.linkedin.com/"">linkedin</a></li>
+                    <li><a href="#" class="copy-link" data-text="https://github.com/" data-url="https://github.com/">github</a></li>
+                    <li><a href="#" class="copy-link" data-text="mudassirahmed009911@gmail.com" data-url="mailto:mudassirahmed009911.com">email</a></li>
+                    <li><a href="/Portfolio 1.0/images/CV/M.A Resume.pdf" download>cv</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="hamburger_footer">
+                <div>
+                  <p>&copy; 2025 Mudassir Ahmed.All rights reserved.</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </header>
+
+  <div id="aboutme_mainlayout">
+    <div id="aboutme_leftlayout">
+      <div class="typing" id="typing"></div>
+      <p>My Self <tag>Mudassir Ahmed</tag>.</p>
+      <p>A <span class="word-pop" id="wordPopTarget"></span> Graphic Designer.</p>
+      <p>Bringing Creativity To Life.</p>
+      <p>Lets's Bring Your Ideas To Reality.</p>
+      <div id="p7_box">
+        <p id="p50">Together</p>
+      </div>
+    </div>
+    <div id="aboutme_rightlayout">
+      <div id="halfcard">
+        <img src="images/brush.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- skill & tools section -->
+  <div id="snt_main">
+    <div id="skill_display">
+      <div id="slider">
+        <p>Brouchers Design</p>
+        <p>Logo Design</p>
+        <p>Ui/Ux Design</p>
+        <p>Product Advertisement</p>
+      </div>
+      <div id="circle"></div>
+      <div id="header">Skills</div>
+    </div>
+  </div>
+
+  <div id="snt_main_2">
+    <div id="tool_display_2">
+      <div id="header">Tools</div>
+      <div id="circle2"></div>
+      <div id="slider_2">
+        <p>Coming Soon</p>
+        <p>Illustrator</p>
+        <p>Photoshop</p>
+        <p>Coral Draw</p>
+        <p>After Effect</p>
+        <p>Canva</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Seection -->
+   <div id="recent_main">
+    <div id="recent_left">
+      <div class="carousel-wrap" id="carousel">
+        <div class="bg-base" id="bgBase"></div>
+        <div class="bg-fade" id="bgFade"></div>
+    
+        <!-- Foreground clickable tile contains caption + dots -->
+        <a id="fgLink" class="fg-link" href="#" target="_blank" rel="noopener">
+          <div class="fg-caption" id="fgCaption"></div>
+          <div class="fg-dots" id="fgDots" aria-hidden="false"></div>
+        </a>
+      </div>
+    </div>
+    <div id="recent_right">
+      <div>
+        <p>Recent</p> 
+        <p>Projects</p>
+      </div>
+    </div>
+   </div>
+
+  <!-- work with section -->
+  <div id="snt_main">
+    <div id="skill_display">
+      <div id="slider">
+        <p>Usmaniasoft</p>
+        <p>MCKR University</p>
+      </div>
+      <div id="circle"></div>
+      <div id="header">Clients</div>
+    </div>
+  </div>
+
+  <!-- contact form section -->
+  <div id="contact_main">
+    <div id="contact_left">
+      <div>
+        <p>Contact</p>
+        <p>Form</p>
+      </div>
+    </div>
+    <div id="contact_right">
+      <div class="form_card">
+        <form class="contact-form" id="myForm">
+          <p>Name</p>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <p>Email</p>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <p>Message</p>
+          <textarea name="Message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Location Section -->
+   <div id="location_main">
+    <div id="location_left">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55268.07155204716!2d70.63956289052125!3d30.029556496356744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393ab1e92cff6575%3A0x1c9ef8b4f921afbb!2sDera%20Ghazi%20Khan%2C%20Pakistan!5e0!3m2!1sen!2s!4v1756654773742!5m2!1sen!2s"
+        width="90%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div id="location_right">
+      <div id="location_text_box">
+        <p>Location</p>
+        <p>Pin</p>
+        <p>Based in Pakistan • 
+          Available worldwide</p>
+      </div>
+    </div>
+   </div>
+
+   <!-- social links for mobile -->
+    <div id="mobile_sl">
+      <div id="sl_left">
+        <p>Social</p>
+        <p>Links</p>
+
+        <ul>
+            <li><a>whatsapp</a></li>
+            <li><a>linkedin</a></li>
+            <li><a>github</a></li>
+            <li><a>email</a></li>
+            <li><a>cv</a></li>
+        </ul>
+      </div>
+      <div id="sl_right">
+        <div class="icon i1">
+          <img src="images/i1.png">
+        </div>
+        <div class="icon i2">
+          <img src="images/i2.png">
+          <img src="images/i3.png"> 
+        </div>
+        <div class="icon i3">
+          <img src="images/i4.png">
+          <img src="images/i5.png">
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer>
+    <div id="footer_left">
+      <p>&copy; 2025 Mudassir Ahmed. All rights reserved.</p>
+    </div>
+    <div id="footer_middle">
+      Powered By ' The Creators '
+    </div>
+    <div id="footer_right">
+      <a href="#" class="copy-link" data-text="923232756102" data-url="https://wa.me/923232756102">whatsapp</a><div class="link_space"></div>
+      <a href="#" class="copy-link" data-text="https://pk.linkedin.com/" data-url="https://pk.linkedin.com/">linkedin</a><div class="link_space"></div>
+      <a href="#" class="copy-link" data-text="https://github.com/" data-url="https://github.com/">github</a><div class="link_space"></div>
+      <a href="/Portfolio 1.0/images/CV/M.A Resume.pdf" download>cv</a>
+    </div>
+
+    <script src="linkhandler.js"></script>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

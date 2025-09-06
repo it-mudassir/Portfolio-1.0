@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="projects_page">  
+  <!--Background Conrner-->
+  <div id="design_container">
+    <div id="corner_design"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+  <div class="logo">Mudassir Ahmed</div>
+    <div id="navbar">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="index.html#contact_main"><div id="contact_btn">Get In Touch</div></a></li>
+            </ul>
+          </nav>
+
+          <div id="hamburger_menu">
+            <div class="menu-btn" id="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+              <div id="link_box">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#contact_main"><div id="contact_btn">Get in touch</div></a>
+              </div>
+              <div id="social_links_heading">
+                <div>
+                  <p>Social</p>
+                  <p>Links</p>
+                </div>
+              </div>
+              <div id="social_links">
+                <div id="links">
+                  <ul>
+                   <li><a href="#" class="copy-link" data-text="923232756102" data-url="https://wa.me/923232756102">whatsapp</a></li>
+                    <li><a href="#" class="copy-link" data-text="https://pk.linkedin.com/" data-url="https://pk.linkedin.com/"">linkedin</a></li>
+                    <li><a href="#" class="copy-link" data-text="https://github.com/" data-url="https://github.com/">github</a></li>
+                    <li><a href="#" class="copy-link" data-text="mudassirahmed009911@gmail.com" data-url="mailto:mudassirahmed009911.com">email</a></li>
+                    <li><a href="/Portfolio 1.0/images/CV/M.A Resume.pdf" download>cv</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="hamburger_footer">
+                <div>
+                  <p>&copy; 2025 Mudassir Ahmed.All rights reserved.</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </header>
+
+  <div id="project_mainlayout">
+    <div  class="highlight-para" id="highlightText">
+      <p>Design is not just about looks—it’s about telling stories and creating visuals that connect, inspire, and leave a lasting impression.</p>
+    </div>
+    <div id="project_right">
+        <img src="images/Stockimg.png">
+    </div>
+  </div>
+
+  <!-- project informationn section -->
+   <div id="heading">
+    <div>
+        <p>Projects</p>
+        <p>information</p>
+    </div>
+   </div>
+
+  <!-- Section 1 -->
+<div class="cards-section" id="Ui" data-title="Monograms">
+  <div class="cards-container" data-section="1"></div>
+</div>
+
+<!-- Section 2 -->
+<div class="cards-section" data-title="UI">
+  <div class="cards-container" data-section="2"></div>
+</div>
+
+<!-- Section 3 -->
+<div class="cards-section" data-title="Brouchers">
+  <div class="cards-container" data-section="3"></div>
+</div>
+
+<!-- Section 4 -->
+<div class="cards-section" data-title="Covers">
+  <div class="cards-container" data-section="4"></div>
+</div>
+
+<!-- Section 5 -->
+<div class="cards-section" data-title="Cards">
+  <div class="cards-container" data-section="5"></div>
+</div>
+
+<!-- Template for cards -->
+<template id="card-template">
+  <div class="card">
+    <div class="image_box">
+        <img src="" alt="Image" loading="lazy">
+    </div>
+    <p class="card-name"></p>
+  </div>
+</template>
+
+<!-- Global Overlay -->
+<div class="overlay" id="overlay">
+  <div class="overlay-content">
+    <button class="close-btn" id="close-overlay">&times;</button>
+    <div class="overlay-image-frame">
+      <img src="" alt="Foreground" id="overlay-img">
+    </div>
+    <div class="overlay-details">
+      <h2 id="overlay-title"></h2>
+      <p id="overlay-summary"></p>
+      <h3>How it’s built</h3>
+      <p id="overlay-build"></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+   <div id="footer_left">
+      <p>&copy; 2025 Mudassir Ahmed. All rights reserved.</p>
+    </div>
+    <div id="footer_middle">
+      Powered By ' The Creators '
+    </div>
+    <div id="footer_right">
+      <a href="#" class="copy-link" data-text="923232756102" data-url="https://wa.me/923232756102">whatsapp</a><div class="link_space"></div>
+      <a href="#" class="copy-link" data-text="https://pk.linkedin.com/" data-url="https://pk.linkedin.com/">linkedin</a><div class="link_space"></div>
+      <a href="#" class="copy-link" data-text="https://github.com/" data-url="https://github.com/">github</a><div class="link_space"></div>
+      <a href="/Portfolio 1.0/images/CV/M.A Resume.pdf" download>cv</a>
+    </div>
+
+    <script src="linkhandler.js"></script>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
