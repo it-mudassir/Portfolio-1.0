@@ -610,6 +610,7 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
   }
 
   form button:hover {
