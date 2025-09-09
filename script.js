@@ -319,7 +319,7 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbzjuk8Rg1Toi4hDFoEe5E
       method: "POST",
       body: JSON.stringify(data)
     })
-    .then(res => alert("Data saved!"))
+    .then(res => alert("Data Successfully Submitted."))
     .catch(err => alert("Error: " + err));
   });
 
