@@ -100,8 +100,8 @@ const wordPopTexts = [
 const SLIDES = [
     { src: "images/monograms/logo9.webp", link: "projects.html#monograms", caption: "Pemela Learning Center" },
     { src: "images/brouchers/broucher1 (1).jpg", link: "projects.html#brouchers", caption: "University Broucher" },
-    { src: "images/UI/ui1 (!)", link: "projects.html#Ui", caption: "Portfolio Ui" },
-    { src: "images/cover/cover (1).webp", link: "projects.html#cover", caption: "University Cover" }
+    { src: "images/UI/ui1 (1).webp", link: "projects.html#Ui", caption: "Portfolio Ui" },
+    { src: "images/cover/cover (1).jpg", link: "projects.html#cover", caption: "University Cover" }
   ];
   
   /* ----- read durations from CSS vars so CSS+JS stay in sync ----- */
